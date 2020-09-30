@@ -2645,8 +2645,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #0f536f;
-  border-color: #0f536f;
+  background-color: #27b8b1;
+  border-color: #27b8b1;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2662,15 +2662,15 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #0f536f;
-  border-color: #0f536f;
+  background-color: #27b8b1;
+  border-color: #27b8b1;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0f536f;
-  border-color: #0f536f;
+  background-color: #27b8b1;
+  border-color: #27b8b1;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -10501,11 +10501,11 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #0f536f;
+  background-color: #27b8b1;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #0f536f;
+  color: #27b8b1;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10526,7 +10526,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #0f536f;
+  color: #27b8b1;
 }
 
 @media (min-width: 992px) {
@@ -10627,7 +10627,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #0f536f;
+  background: #27b8b1;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10961,4 +10961,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
   height: 250px !important;
   object-fit: cover;
+}
+.logo-vitae {
+  width: 150px;
+  height: 50px !important;
+}
+.header-vitae {
+  background-color: #fff !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.nav-link {
+  color: #27b8b1 !important;
+}
+.nav-link:hover {
+  color: #000 !important;
+}
+.masthead {
+  height: 100vh;
+}
+.text-green {
+  color: #27b8b1;
 }
