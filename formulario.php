@@ -246,7 +246,7 @@
         <div class="row form-group">
           <div class="col-4">
             <label for="cepInput">CEP</label>
-            <input id="cepInput" type="tel" maxlength="7" class="input-group">
+            <input id="cepInput" type="tel" maxlength="8" class="input-group">
           </div>
           <div class="col-4">
             <label for="ruaInput">Rua</label>
@@ -319,7 +319,7 @@
       const ufInput = document.querySelector("#ufInput");
 
       cepInput.oninput = async () => {
-        if (cepInput.value.length < 7) return
+        if (cepInput.value.length < 8) return
 
         console.log(cepInput.value)
 
