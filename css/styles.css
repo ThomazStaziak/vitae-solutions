@@ -11003,3 +11003,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 .btn-pink:hover {
   color: #fff;
 }
+
+#jobs {
+  height: 50vh;
+  background-image: url("../assets/img/jobs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
