@@ -324,7 +324,7 @@
         console.log(cepInput.value)
 
         const response = await fetch(
-          `https://proxier.now.sh/api?url=https://viacep.com.br/ws/${cepInput.value}/json`
+          `https://viacep.com.br/ws/${cepInput.value}/json`
         );
         const data = await response.json();
         const { logradouro, bairro, uf, cep } = data;
