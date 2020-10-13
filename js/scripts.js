@@ -68,12 +68,6 @@ form.onsubmit = (evt) => {
     ${message.value}
   `;
 
-  console.log(
-    `https://api.whatsapp.com/send?phone=5511997771556&text=${encodeURIComponent(
-      fullMessage
-    )}`
-  );
-  return;
   window.open(
     `https://wa.me/1199777-1556?text=${encodeURIComponent(fullMessage)}`,
     "self"
