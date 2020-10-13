@@ -11006,8 +11006,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #jobs {
   height: 50vh;
-  background-image: url("../assets/img/jobs.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  border-top: #ccc 1px solid;
+  border-bottom: #ccc 1px solid;
 }

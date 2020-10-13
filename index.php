@@ -41,7 +41,7 @@
       id="mainNav"
     >
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html">
+        <a class="navbar-brand js-scroll-trigger" href="index.php">
           <img
             class="logo-vitae"
             src="./assets/img/logos/logo-vitae-png.png"
@@ -358,12 +358,12 @@
         </div>
       </div>
     </section>
-    <section id="jobs">
+    <section id="jobs" class="d-flex align-items-center">
       <div class="container py-4">
         <h1 class="text-green text-center">
           Temos inúmeras vagas esperando por você
         </h1>
-        <p class="text-center text-white h5 font-weight-light">
+        <p class="text-center text-dark h5 font-weight-light">
           Não perca essa oportunidade, faça a sua inscricão
         </p>
         <div class="d-flex justify-content-center mt-5">
@@ -687,13 +687,13 @@
             <p class="mt-2">Copyright © Vitae Solutions 2020</p>
           </div>
           <div class="col-lg-4 my-3 my-lg-0">
-            <a class="btn btn-dark btn-social mx-2" href="#!"
+            <a class="btn btn-primary btn-social mx-2" href="#!"
               ><i class="fab fa-twitter"></i
             ></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!"
+            <a class="btn btn-primary btn-social mx-2" href="#!"
               ><i class="fab fa-facebook-f"></i
             ></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!"
+            <a class="btn btn-primary btn-social mx-2" href="#!"
               ><i class="fab fa-linkedin-in"></i
             ></a>
           </div>

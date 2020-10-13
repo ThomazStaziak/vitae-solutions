@@ -42,7 +42,7 @@
       id="mainNav"
     >
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html">
+        <a class="navbar-brand js-scroll-trigger" href="index.php">
           <img
             class="logo-vitae"
             src="./assets/img/logos/logo-vitae-png.png"
@@ -85,39 +85,39 @@
       <h3>Informações pessoais</h3>
       <section>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="name">Nome</label>
             <input id="name" type="text" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="email">E-mail</label>
             <input id="email" type="email" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="phone">Celular</label>
             <input id="phone" type="tel" class="input-group">
           </div>
         </div>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="tax">CPF</label>
             <input id="tax" type="text" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="cv">Anexar CV</label>
             <input id="cv" type="file" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="linkedin">LinkedIn</label>
             <input id="linkedin" type="text" class="input-group">
           </div>
         </div>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="date">Data de nascimento</label>
             <input id="date" type="date" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="gender">Sexo</label>
             <select class="input-group" name="" id="gender">
               <option value="" disabled selected>Selecione</option>
@@ -126,7 +126,7 @@
               <option value="Outro">Outro</option>
             </select>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="maritalStatus">Estado civil</label>
             <select class="input-group" name="" id="maritalStatus">
               <option value="" disabled selected>Selecione</option>
@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="schooling">Escolaridade</label>
             <select class="input-group" name="" id="schooling">
               <option value="" disabled selected>Selecione</option>
@@ -164,7 +164,7 @@
               <option value="Doutorado completo">Doutorado completo</option>
             </select>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="languages">Idiomas</label>
             <select class="input-group" name="" id="languages">
               <option value="" disabled selected>Selecione</option>
@@ -176,7 +176,7 @@
               <option value="Outro">Outro</option>
             </select>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="languageLevel">Nível</label>
             <select class="input-group" name="" id="languageLevel">
               <option value="" disabled selected>Selecione</option>
@@ -189,7 +189,7 @@
           </div>
         </div>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="workingActually">Trabalhando atualmente</label>
             <select class="input-group" name="" id="workingActually">
               <option value="" disabled selected>Selecione</option>
@@ -197,7 +197,7 @@
               <option value="Não">Não</option>
             </select>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="acceptTurn">Aceita turno</label>
             <select class="input-group" name="" id="acceptTurn">
               <option value="" disabled selected>Selecione</option>
@@ -205,7 +205,7 @@
               <option value="Não">Não</option>
             </select>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="availableToTrips">Disponível para viagens</label>
             <select class="input-group" name="" id="availableToTrips">
               <option value="" disabled selected>Selecione</option>
@@ -215,7 +215,7 @@
           </div>
         </div>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="availableHalfPeriod">Disponível para meio período</label>
             <select class="input-group" name="" id="availableHalfPeriod">
               <option value="" disabled selected>Selecione</option>
@@ -223,7 +223,7 @@
               <option value="Não">Não</option>
             </select>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="acceptTemporary">Aceita temporário</label>
             <select class="input-group" name="" id="acceptTemporary">
               <option value="" disabled selected>Selecione</option>
@@ -231,7 +231,7 @@
               <option value="Não">Não</option>
             </select>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="newJobs">Deseja receber novas vagas?</label>
             <select class="input-group" name="" id="newJobs">
               <option value="" disabled selected>Selecione</option>
@@ -244,37 +244,70 @@
       <h3>Endereço</h3>
       <section>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="cepInput">CEP</label>
             <input id="cepInput" type="tel" maxlength="8" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="ruaInput">Rua</label>
             <input id="ruaInput" type="text" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="number">Número</label>
             <input id="number" type="tel" class="input-group">
           </div>
         </div>
         <div class="row form-group">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="addendum">Complemento</label>
             <input id="addendum" type="text" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="bairroInput">Bairro</label>
             <input id="bairroInput" type="text" class="input-group">
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <label for="ufInput">Estado</label>
-            <input id="ufInput" type="tel" class="input-group">
+            <input id="ufInput" type="text" class="input-group">
           </div>
         </div>
       </section>
       <h3>Experiência profissional</h3>
       <section>
-          <p>The next and previous buttons help you to navigate through your content.</p>
+        <div class="row form-group">
+          <div class="col-12 col-md-4">
+            <label for="company">Empresa</label>
+            <input id="company" type="text" class="input-group">
+          </div>
+          <div class="col-12 col-md-4">
+            <label for="initialFunction">Função inicial</label>
+            <input id="initialFunction" type="text" class="input-group">
+          </div>
+          <div class="col-12 col-md-4">
+            <label for="initial">Função inicial</label>
+            <input id="initial" type="text" class="input-group">
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-12 col-md-4">
+            <label for="initialDate">Data de admissão</label>
+            <input id="initialDate" type="date" class="input-group">
+          </div>
+          <div class="col-12 col-md-4">
+            <label for="finalDate">Data de desligamento</label>
+            <input id="finalDate" type="date" class="input-group">
+          </div>
+          <div class="col-12 col-md-4">
+            <label for="amount">Último salário</label>
+            <input id="amount" type="tel" class="input-group">
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-12">
+            <label for="amount">Principais realizações</label>
+            <textarea class="input-group" name="amount" id="amount" cols="30" rows="10"></textarea>
+          </div>
+        </div>
       </section>
     </form>
     <footer class="footer py-4 bg-light">
@@ -289,13 +322,13 @@
             <p class="mt-2">Copyright © Vitae Solutions 2020</p>
           </div>
           <div class="col-lg-4 my-3 my-lg-0">
-            <a class="btn btn-dark btn-social mx-2" href="#!"
+            <a class="btn btn-primary btn-social mx-2" href="#!"
               ><i class="fab fa-twitter"></i
             ></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!"
+            <a class="btn btn-primary btn-social mx-2" href="#!"
               ><i class="fab fa-facebook-f"></i
             ></a>
-            <a class="btn btn-dark btn-social mx-2" href="#!"
+            <a class="btn btn-primary btn-social mx-2" href="#!"
               ><i class="fab fa-linkedin-in"></i
             ></a>
           </div>
